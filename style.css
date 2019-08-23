@@ -193,12 +193,59 @@ body {
     padding: 1rem;
     margin: 0 1rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 
-/* #services .box {
-    color: #333;
-    padding: 1rem;
-    margin: 0 1rem;
+/* Section: Hobby */
+
+#hobby {
+    background: url(img/bgHobby.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.hobby-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 3rem 0;
+}
+
+#hobby h2 {
     text-align: center;
-} */
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+#hobby .boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+#hobby .box {
+    background: rgba(54, 147, 255, 0.7);
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#hobby .box:first-child,
+#hobby .box:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+#hobby .box img {
+    border-radius: 10%;
+    margin-right: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+#hobby p {
+    color: #fff;
+    text-align: center;
+}
