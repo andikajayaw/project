@@ -27,6 +27,11 @@ body {
     color: #3693ff;
 }
 
+.bg-light {
+    background: #e6e6e6;
+    color: #333;
+}
+
 
 /* Navbar */
 
@@ -123,7 +128,8 @@ body {
     padding: 5rem 0;
 }
 
-#about h2 {
+#about h2,
+#learn h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -158,3 +164,41 @@ body {
     border-radius: 40%;
     margin-top: 60px;
 }
+
+
+/* Section: Services */
+
+#learn {
+    padding: 5rem 0;
+}
+
+#learn h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#learn .boxes {
+    display: flex;
+}
+
+#learn .box {
+    background: #fff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.3rem;
+    color: #333;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+
+/* #services .box {
+    color: #333;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-align: center;
+} */
