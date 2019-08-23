@@ -240,12 +240,12 @@ body {
 
 #hobby .box img {
     border-radius: 10%;
-    margin-right: 3rem;
+    margin-right: 1.5rem;
     width: 3rem;
     margin-left: 2rem;
 }
 
 #hobby p {
     color: #fff;
-    text-align: center;
+    text-align: justify;
 }
