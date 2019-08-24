@@ -32,6 +32,11 @@ body {
     color: #333;
 }
 
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
 
 /* Navbar */
 
@@ -103,7 +108,7 @@ body {
 .showcase-content .btn {
     font-size: 1.5rem;
     padding: 1rem 10rem;
-    transition: color 0.5s, background 0.5;
+    transition: color 0.5s, background 0.3;
 }
 
 .showcase-content .btn:hover {
@@ -320,4 +325,15 @@ body {
 
 #contact .contact-btn:hover {
     background: #0378ff;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 2.5rem;
+}
+
+footer p {
+    text-align: center;
 }
