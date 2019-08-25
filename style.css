@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fjalla+One|Montserrat|Raleway|Red+Hat+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Mega|Bree+Serif|Fjalla+One|Montserrat|Raleway|Red+Hat+Text&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -110,6 +110,7 @@ body {
     font-size: 1.5rem;
     padding: 1rem 10rem;
     transition: color 0.5s, background 0.3;
+    font-family: 'Lexend Mega', sans-serif;
 }
 
 .showcase-content .btn:hover {
